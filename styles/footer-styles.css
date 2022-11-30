@@ -1,0 +1,57 @@
+/* footer styles */
+.footer-wrapper {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+.footer-wrapper > .footer-logo {
+    display: flex;
+    justify-content: center;
+}
+.footer-wrapper > .footer-logo img {
+    width: 216px;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer-wrapper > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.footer-wrapper > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #cea123;
+    /* text-transform: uppercase;  --> This is to make letter uppercase */
+}
+.footer-wrapper > .link-wrapper {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.footer-wrapper > .footer-media-links {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wrapper > .footer-media-links a {
+    color: #cbcbcb;
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+.footer-wrapper > .footer-media-links a:hover {
+    color: #cea123;
+}
+.footer-wrapper > .footer-copyright {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}

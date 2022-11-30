@@ -1,0 +1,30 @@
+@mixin notif($background-color, $color, $border) {
+    width: 98%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-family: verdana;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: $background-color;
+    color: $color;
+    border: $border;
+  }
+  
+  .error {
+    @include notif(
+      $background-color: red,
+      $color: white,
+      $border: 1px solid lightslategray
+    );
+  }
+  
+  .success {
+    @include notif(
+      $background-color: green,
+      $color: mintcream,
+      $border: 1px solid lightsalmon
+    );
+  }
+  
